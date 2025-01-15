@@ -1,0 +1,62 @@
+<div>
+
+	<canvas class="line-chart"></canvas>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+	<script>
+
+	var ctx = document.getElementsByClassName("line-chart");
+
+	var dia = ["Dia 1", "Dia 2", "Dia 3", "Dia 4", "Dia 5", "Dia 6"]; //Seta os dias
+	var real = [60,30,65,59,58,49]; //Seta os dados do grafico 1
+	var meta = [30,45,62,47,55,11]; //Seta os dados do grafico 2
+
+	//Type, data, options
+
+	var chartGraph = new Chart (ctx, {
+		type: 'line', //line, bar, radar, doughnut (pizza), polarArea
+		data: {
+				labels: dia,
+				datasets: [{
+
+					label: "OEE Real (%) ",
+					data: real,
+					borderWidth: 6,
+					borderColor: 'rgba(146,242,42,0.85)',
+					background: 'transparent',
+				},
+
+				{
+
+					label: "OEE Meta (%)",
+					data: meta,
+					borderWidth: 6,
+					borderColor: 'rgba(207,0,15,0.85)',
+					background: 'transparent',
+
+				},
+			]},
+
+		options: {
+			title: {
+				display: true,
+				fontSize: 20,
+				text: "ENCARTUCHAMENTO 05"
+
+			},
+			scales: {
+            	yAxes: [{
+                	ticks: {
+                    	 max: 100,
+                		 min: 0,
+                	}
+            	}]
+        	},
+
+		}
+
+	});
+
+	</script>
+	</div>

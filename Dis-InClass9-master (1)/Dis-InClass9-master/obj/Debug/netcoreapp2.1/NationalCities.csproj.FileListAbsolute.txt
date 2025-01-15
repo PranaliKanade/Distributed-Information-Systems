@@ -1,0 +1,5 @@
+C:\Users\Pranali\Desktop\Pranali Kanade\MS\USF\DIS\InClass9\NationalParksExample-master\NationalParksExample-master\NationalParks\obj\Debug\netcoreapp2.1\NationalCities.csprojAssemblyReference.cache
+C:\Users\Pranali\Desktop\Pranali Kanade\MS\USF\DIS\InClass9\NationalParksExample-master\NationalParksExample-master\NationalParks\obj\Debug\netcoreapp2.1\NationalCities.RazorAssemblyInfo.cache
+C:\Users\Pranali\Desktop\Pranali Kanade\MS\USF\DIS\InClass9\NationalParksExample-master\NationalParksExample-master\NationalParks\obj\Debug\netcoreapp2.1\NationalCities.RazorAssemblyInfo.cs
+C:\Users\Pranali\Desktop\Pranali Kanade\MS\USF\DIS\InClass9\NationalParksExample-master\NationalParksExample-master\NationalParks\obj\Debug\netcoreapp2.1\NationalCities.AssemblyInfoInputs.cache
+C:\Users\Pranali\Desktop\Pranali Kanade\MS\USF\DIS\InClass9\NationalParksExample-master\NationalParksExample-master\NationalParks\obj\Debug\netcoreapp2.1\NationalCities.AssemblyInfo.cs
